@@ -1,0 +1,8 @@
+<pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+    <div class="drawer-content">
+        <h3>
+            <pb-i18n key="document.contents">Contents</pb-i18n>
+        </h3>
+        {% tpfetch tpConfig.remote + "api/document/" + docPath + "/contents?target=transcription&icons=true" %}
+    </div>
+</pb-drawer>

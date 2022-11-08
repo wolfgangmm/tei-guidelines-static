@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+templateClass: home
+---
+<main>
+    <header>
+        <pb-view id="title-view1" src="document1" xpath="//teiHeader" view="single" odd="tei" static="{{context}}">
+            <pb-param name="mode" value="title"/>
+        </pb-view>
+    </header>
+
+    <div class="front">
+        <h1>Front Matter</h1>
+        <pb-view id="front" src="document1" xpath="//front" view="single" odd="tei" static="{{context}}">
+            <pb-param name="mode" value="toc"/>
+        </pb-view>  
+    </div>
+    <div class="body">
+        <h1>Body</h1>
+        <pb-view id="body" src="document1" xpath="//body" view="single" odd="tei" static="{{context}}">
+            <pb-param name="mode" value="toc"/>
+        </pb-view>
+    </div>
+    <div class="back">
+        <h1>Back Matter</h1>
+        <pb-view id="back" src="document1" xpath="//back" view="single" odd="tei" static="{{context}}">
+            <pb-param name="mode" value="toc"/>
+        </pb-view>  
+    </div>
+    <div class="reference">
+        <h1>Reference</h1>
+
+        <p>View reference page for element or class identifier:</p>
+        <pb-autocomplete placeholder="Name of element or class" emit="ident" substring
+        source="autocomplete.json" preload icon="icons:search"></pb-autocomplete>
+        <p>Search in the full text of the guidelines:</p>
+        <pb-search label="Search" action="{{context}}/search.html" disable-autocomplete redirect></pb-search>
+    </div>
+</main>
+<footer class="version">
+    App: v<span data-template="pages:version"/> /
+    web components: v<pb-version/>
+</footer>

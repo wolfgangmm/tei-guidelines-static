@@ -1,0 +1,21 @@
+{
+  "name": "tei-guidelines-static",
+  "version": "0.9.0",
+  "description": "TEI Guidelines",
+  "main": "index.js",
+  "scripts": {
+    "build": "DEBUG=tei-publisher npx @11ty/eleventy",
+    "build.all": "DEBUG=tei-publisher TP_NO_CACHE=true npx @11ty/eleventy",
+    "watch": "DEBUG=tei-publisher npx @11ty/eleventy --watch",
+    "serve": "DEBUG=tei-publisher npx @11ty/eleventy --serve --port 8081",
+    "start": "npm run serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@teipublisher/pb-eleventy-plugin": "^0.9.4"
+  }
+}

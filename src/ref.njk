@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+pagination:
+    data: tpdata.idents
+    size: 1
+    alias: ref
+permalink: "/ref/{{ ref.ident }}/"
+templateClass: ref
+---
+<main>
+    <pb-view id="reference" src="document1" load-css="../../css/tei.css"
+        xpath="//(elementSpec|classSpec|macroSpec|attSpec|dataSpec)[@ident='{{ref.ident}}']"
+        view="single" subscribe="transcription" fix-links="fix-links" static="{{context}}">
+        <pb-param name="lng" value="en"/>
+        <pb-param name="mode" value="ref"/>
+    </pb-view>
+</main>

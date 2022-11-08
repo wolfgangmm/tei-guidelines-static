@@ -1,0 +1,42 @@
+{
+    "name": "guidelines",
+    "title": "TEI P5: Guidelines for Electronic Text Encoding and Interchange",
+    "cdn": "https://cdn.jsdelivr.net/npm/@teipublisher/pb-components",
+    "components": "1.38.7",
+    "languages": {
+        "bg": "Български",
+        "cs": "Česky",
+        "zh_CN": "简体中文",
+        "zh_TW": "繁體中文",
+        "de": "Deutsch",
+        "en": "English",
+        "es": "Español",
+        "el": "ελληνικά",
+        "fr": "Français",
+        "fi": "Suomi",
+        "it": "Italiano",
+        "ka": "ქართული",
+        "nl": "Nederlands",
+        "no": "Norsk",
+        "pl": "Polski",
+        "pt": "Português",
+        "ro": "Română",
+        "ru": "русский",
+        "sl": "Slovenščina",
+        "sv": "Svenska",
+        "tr": "Türkçe",
+        "uk": "Українська"
+    },
+    "images": [
+        "tei.png",
+        "GitHub-Mark-Light-64px.png",
+        "tei-publisher-logo-contrast-color.svg",
+        "favicon-16.png",
+        "favicon-24.png",
+        "favicon-32.png",
+        "favicon-64.png",
+        "favicon.ico",
+        "android-chrome-192x192.png",
+        "android-chrome-384x384.png"
+    ]
+}

@@ -1,0 +1,7 @@
+---
+permalink: "/resources/css/theme.css"
+eleventyExcludeFromCollections: true
+---
+{% tpfetch tpConfig.remote + "resources/css/theme.css" %}
+{% tpfetch tpConfig.remote + "resources/css/guidelines.css" %}
+{% include "./styles.css" %}
