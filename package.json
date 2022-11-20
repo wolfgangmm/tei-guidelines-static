@@ -17,7 +17,8 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@teipublisher/pb-eleventy-plugin": "^0.9.4",
+    "@teipublisher/pb-components": "^1.38.7",
+    "@teipublisher/pb-eleventy-plugin": "^0.9.7",
     "eleventy-plugin-gen-favicons": "^1.1.1",
     "rimraf": "^3.0.2",
     "workbox-build": "^6.5.4",

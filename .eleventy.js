@@ -1,5 +1,5 @@
 const UserConfig = require("@11ty/eleventy/src/UserConfig");
-const tpPlugin = require("../tei-publisher-eleventy");
+const tpPlugin = require("@teipublisher/pb-eleventy-plugin");
 const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const path = require("path");
 const {injectManifest} = require("workbox-build/build");
@@ -11,15 +11,11 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('src/resources/css/*.css');
     eleventyConfig.addPassthroughCopy('src/offline.json');
     eleventyConfig.addPassthroughCopy({
-        'node_modules/workbox-sw/build/workbox-sw.js': 'resources/scripts/workbox-sw.js'
+        'node_modules/workbox-sw/build/workbox-sw.js': 'resources/scripts/workbox-sw.js',
+        'node_modules/@teipublisher/pb-components/dist/*.js': 'resources/scripts',
+        'node_modules/@teipublisher/pb-components/i18n/common/*': 'resources/i18n/common',
     });
 
-    eleventyConfig.addPlugin(faviconsPlugin, {
-        manifestData: {
-            title: "TEI P5: Guidelines for Electronic Text Encoding and Interchange",
-            short_name: "TEI P5 Guidelines"
-        }
-    });
     eleventyConfig.addPlugin(tpPlugin, {
         remote: 'http://localhost:8040/exist/apps/guidelines/',
         data: {
@@ -50,6 +46,13 @@ module.exports = (eleventyConfig) => {
         }
     });
 
+    eleventyConfig.addPlugin(faviconsPlugin, {
+        manifestData: {
+            title: "TEI P5: Guidelines for Electronic Text Encoding and Interchange",
+            short_name: "TEI P5 Guidelines"
+        }
+    });
+    
     eleventyConfig.on('eleventy.after', async () => {
         const result = await injectManifest({
             swSrc: '_site/sw.js',
