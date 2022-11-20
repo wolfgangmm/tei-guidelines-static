@@ -8,18 +8,14 @@ docPath: p5.xml
         {% block head %}{% endblock head %}
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-        <link rel="shortcut icon" type="image/x-icon" href="{{context}}/resources/images/favicon.ico">
-        <link rel="shortcut icon" type="image/png" href="{{context}}/resources/images/favicon-16.png" sizes="16x16">
-        <link rel="shortcut icon" type="image/png" href="{{context}}/resources/images/favicon-24.png" sizes="24x24">
-        <link rel="shortcut icon" type="image/png" href="{{context}}/resources/images/favicon-32.png" sizes="32x32">
-        <link rel="shortcut icon" type="image/png" href="{{context}}/resources/images/favicon-64.png" sizes="64x64">
-
-        <title>{{title}}</title>
+        {% favicons 'src/resources/images/icon.png' %}
+        <title>{{metadata.title}}</title>
         <link rel="manifest" href="{{context}}/manifest.json">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{context}}/resources/css/theme.css">
+        <link rel="stylesheet" href="{{context}}/resources/css/styles.css">
         <script defer src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.3/webcomponents-loader.js"></script>
         <script defer src="https://unpkg.com/web-animations-js@2.3.2/web-animations-next-lite.min.js"></script>
         {% if components == 'dev' %}

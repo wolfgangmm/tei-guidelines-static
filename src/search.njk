@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+permalink: search.html
+templateClass: search
+---
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.7.31/dist/flexsearch.bundle.js"></script>
+<script src="/resources/scripts/search.js"></script>
+{% endblock scripts %}
+
+<main class="content-body">
+    <header>
+        <pb-search id="search-input" label="Search" disable-autocomplete></pb-search>
+    </header>
+    <div id="results"></div>
+</main>
