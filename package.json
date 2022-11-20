@@ -19,6 +19,8 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@teipublisher/pb-eleventy-plugin": "^0.9.4",
     "eleventy-plugin-gen-favicons": "^1.1.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "workbox-build": "^6.5.4",
+    "workbox-sw": "^6.5.4"
   }
 }

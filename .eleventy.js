@@ -2,12 +2,17 @@ const UserConfig = require("@11ty/eleventy/src/UserConfig");
 const tpPlugin = require("../tei-publisher-eleventy");
 const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const path = require("path");
+const {injectManifest} = require("workbox-build/build");
 
 /** @param {UserConfig} eleventyConfig */
 module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('src/resources/images/*');
     eleventyConfig.addPassthroughCopy('src/resources/scripts/*.js');
     eleventyConfig.addPassthroughCopy('src/resources/css/*.css');
+    eleventyConfig.addPassthroughCopy('src/offline.json');
+    eleventyConfig.addPassthroughCopy({
+        'node_modules/workbox-sw/build/workbox-sw.js': 'resources/scripts/workbox-sw.js'
+    });
 
     eleventyConfig.addPlugin(faviconsPlugin, {
         manifestData: {
@@ -43,6 +48,21 @@ module.exports = (eleventyConfig) => {
                 }
             }
         }
+    });
+
+    eleventyConfig.on('eleventy.after', async () => {
+        const result = await injectManifest({
+            swSrc: '_site/sw.js',
+            swDest: '_site/sw.js',
+            globDirectory: '_site',
+            globPatterns: [
+              '**/*.jsonl',
+              '**/*.css',
+              '**/*.js',
+              '*.json'
+            ]
+        });
+        console.log('[service worker] %d files will be cached, size: %d mb', result.count, (result.size / 1048576).toFixed(2));
     });
 
     return {

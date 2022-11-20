@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+templateClass: offline
+---
+<main>
+    <section>
+        <h1>Offline</h1>
+
+        <p>You appear to be offline. The page will reload once you are online again.</p>
+        <p>Pages visited before will still be available.</p>
+    </section>
+</main>
+<script>
+    window.addEventListener('online', function() {
+        window.location.reload();
+    });
+</script>
