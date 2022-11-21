@@ -17,7 +17,7 @@ module.exports = (eleventyConfig) => {
     });
 
     eleventyConfig.addPlugin(tpPlugin, {
-        remote: 'http://localhost:8040/exist/apps/guidelines/',
+        remote: 'http://localhost:8080/exist/apps/guidelines/',
         data: {
             "idents": "api/idents"
         },
