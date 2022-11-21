@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "p5.xml",
+    "root": "1.7.2.9",
+    "rootNode": "1.7.2.9",
+    "id": "dedication",
+    "odd": "tei.odd",
+    "next": "1.7.2.11",
+    "previous": "1.7.2.7",
+    "nextId": "FM1",
+    "previousId": "TitlePageVerso",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><section data-tei=\"1.7.2.9\" class=\"tei-div9\" id=\"dedication\">\n  <h1 data-tei=\"1.7.2.9.4\" class=\"tei-head9\"><pb-clipboard data-i18n=\"[label]clipboard.copy\"><a href=\"/?id=dedication\">2 Dedication</a></pb-clipboard></h1>\n  <p data-tei=\"1.7.2.9.6\" class=\"tei-p box\">\n    </p><ul data-tei=\"1.7.2.9.6.3\" class=\"tei-list3\"><li data-tei=\"1.7.2.9.6.3.4\" class=\"tei-item\">\n\tDonald E. Walker\n\t<br data-tei=\"1.7.2.9.6.3.4.2\" class=\"tei-lb\">22 November 1928 – 26 November 1993\n      </li><li data-tei=\"1.7.2.9.6.3.6\" class=\"tei-item\">\n\tAntonio Zampolli\n\t<br data-tei=\"1.7.2.9.6.3.6.2\" class=\"tei-lb\">1937 – 22 August 2003\n      </li><li data-tei=\"1.7.2.9.6.3.8\" class=\"tei-item\">\n\tSebastian Rahtz\n\t<br data-tei=\"1.7.2.9.6.3.8.2\" class=\"tei-lb\">13 February 1955 – 15 March 2016\n      </li></ul>\n  <p></p>\n</section></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "track-ids": "True",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.14.24.73",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.labelLike</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups elements used to gloss or explain other parts of a document.</span></td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/application\" class=\"tei-ref3\" target=\"\">application</a> <a href=\"/ref/climate\" class=\"tei-ref3\" target=\"\">climate</a> <a href=\"/ref/event\" class=\"tei-ref3\" target=\"\">event</a> <a href=\"/ref/lg\" class=\"tei-ref3\" target=\"\">lg</a> <a href=\"/ref/listAnnotation\" class=\"tei-ref3\" target=\"\">listAnnotation</a> <a href=\"/ref/location\" class=\"tei-ref3\" target=\"\">location</a> <a href=\"/ref/notatedMusic\" class=\"tei-ref3\" target=\"\">notatedMusic</a> <a href=\"/ref/org\" class=\"tei-ref3\" target=\"\">org</a> <a href=\"/ref/place\" class=\"tei-ref3\" target=\"\">place</a> <a href=\"/ref/population\" class=\"tei-ref3\" target=\"\">population</a> <a href=\"/ref/state\" class=\"tei-ref3\" target=\"\">state</a> <a href=\"/ref/surface\" class=\"tei-ref3\" target=\"\">surface</a> <a href=\"/ref/terrain\" class=\"tei-ref3\" target=\"\">terrain</a> <a href=\"/ref/trait\" class=\"tei-ref3\" target=\"\">trait</a> <a href=\"/ref/transcriptionDesc\" class=\"tei-ref3\" target=\"\">transcriptionDesc</a> <a href=\"/ref/unitDef\" class=\"tei-ref3\" target=\"\">unitDef</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/desc\" class=\"tei-ref3\" target=\"\">desc</a> <a href=\"/ref/label\" class=\"tei-ref3\" target=\"\">label</a> </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "p5.xml",
+    "root": "1.7.4.14",
+    "rootNode": "1.7.4.14",
+    "id": "DR",
+    "odd": "tei.odd",
+    "next": "1.7.4.16",
+    "previous": "1.7.4.12",
+    "nextId": "TS",
+    "previousId": "VE",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><ul class=\"tei-div2\" id=\"DR\"><li class=\"tei-head1\"><pb-link hash=\"DRFAB\" emit=\"transcription\">Front and Back Matter\n </pb-link></li><ul class=\"tei-div2\" id=\"DRFAB\"><li class=\"tei-head1\"><pb-link hash=\"DRSET\" emit=\"transcription\">The Set Element</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRPRO\" emit=\"transcription\">Prologues and Epilogues</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRPERF\" emit=\"transcription\">Records of Performances</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRCAST\" emit=\"transcription\">Cast Lists</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DRBOD\" emit=\"transcription\">The Body of a Performance Text</pb-link></li><ul class=\"tei-div2\" id=\"DRBOD\"><li class=\"tei-head1\"><pb-link hash=\"DRDIV\" emit=\"transcription\">Major Structural Divisions</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRSP\" emit=\"transcription\">Speeches and Speakers</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRSPG\" emit=\"transcription\">Grouped Speeches</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRSTA\" emit=\"transcription\">Stage Directions</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRPAL\" emit=\"transcription\">Speech Contents</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DREMB\" emit=\"transcription\">Embedded Structures</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DRSIM\" emit=\"transcription\">Simultaneous Action</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DROTH\" emit=\"transcription\">Other Types of Performance Text</pb-link></li><ul class=\"tei-div2\" id=\"DROTH\"><li class=\"tei-head1\"><pb-link hash=\"DRTEC\" emit=\"transcription\">Technical Information</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"\" emit=\"transcription\">Module for Performance Texts</pb-link></li></ul></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "guide",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

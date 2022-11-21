@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.12.16.23.6.78",
+    "id": "CLINTERP",
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"element-spec\"><h3>att.interpLike</h3><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">provides attributes for elements which represent a formal analysis or interpretation.</span> [<a href=\"/p5.xml?id=AIATTS#AIATTS\" class=\"inner-ref\">17.2 Global Attributes for Simple Analyses</a>]</td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Members</td><td><a href=\"/ref/interp\" class=\"tei-ref3\" target=\"\">interp</a> <a href=\"/ref/interpGrp\" class=\"tei-ref3\" target=\"\">interpGrp</a> <a href=\"/ref/span\" class=\"tei-ref3\" target=\"\">span</a> <a href=\"/ref/spanGrp\" class=\"tei-ref3\" target=\"\">spanGrp</a> </td></tr><tr><td>Attributes</td><td><dl class=\"att-class\"></dl>\n    <dl><dt>@type</dt><dd><span class=\"tei-desc2\">indicates what kind of phenomenon is being noted in the passage.</span><dl><dt>Usage</dt><dd>rec</dd><dt>Datatype</dt><dd>teidata.enumerated</dd></dl></dd></dl>\n    \n    \n    <dl><dt>@subtype</dt><dd><span class=\"tei-desc2\">provides a sub-categorization of the phenomenon is being noted in the passage, if needed</span><dl><dt>Usage</dt><dd>opt</dd><dt>Datatype</dt><dd>teidata.enumerated</dd></dl></dd></dl>\n    \n    <dl><dt>@inst</dt><dd><span class=\"tei-desc2\">points to instances of the analysis or interpretation represented\nby the current element.</span><dl><dt>Usage</dt><dd>opt</dd><dt>Datatype</dt><dd>teidata.pointer</dd></dl></dd></dl>\n  </td></tr></tbody></table></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

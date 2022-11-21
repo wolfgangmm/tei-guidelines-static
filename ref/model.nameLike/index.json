@@ -1,0 +1,4 @@
+{
+    "odd=tei.odd&user.lng=en&user.mode=ref&view=single&xpath=//(elementSpec|classSpec|macroSpec|attSpec|dataSpec)[@ident='model.nameLike']": "reference-1.json",
+    "id=NAMING&odd=tei.odd&user.lng=en&user.mode=ref&view=single&xpath=//(elementSpec|classSpec|macroSpec|attSpec|dataSpec)[@ident='model.nameLike']": "reference-1.json"
+}

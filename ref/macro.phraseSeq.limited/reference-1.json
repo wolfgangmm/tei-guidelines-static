@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.29.8.14.8",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"element-spec\"><h3>macro.phraseSeq.limited</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"><span class=\"ident\">macro.phraseSeq.limited</span><span class=\"tei-gloss1 gloss\">limited phrase sequence</span> <span class=\"tei-desc2\">defines a sequence of character data and those phrase-level elements that are not typically\nused for transcribing extant documents.</span> [<a href=\"/p5.xml?id=STECST#STECST\" class=\"inner-ref\">1.4.1 Standard Content Models</a>]</td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/activity\" class=\"tei-ref3\" target=\"\">activity</a> <a href=\"/ref/age\" class=\"tei-ref3\" target=\"\">age</a> <a href=\"/ref/authority\" class=\"tei-ref3\" target=\"\">authority</a> <a href=\"/ref/channel\" class=\"tei-ref3\" target=\"\">channel</a> <a href=\"/ref/classCode\" class=\"tei-ref3\" target=\"\">classCode</a> <a href=\"/ref/collection\" class=\"tei-ref3\" target=\"\">collection</a> <a href=\"/ref/constitution\" class=\"tei-ref3\" target=\"\">constitution</a> <a href=\"/ref/derivation\" class=\"tei-ref3\" target=\"\">derivation</a> <a href=\"/ref/domain\" class=\"tei-ref3\" target=\"\">domain</a> <a href=\"/ref/factuality\" class=\"tei-ref3\" target=\"\">factuality</a> <a href=\"/ref/funder\" class=\"tei-ref3\" target=\"\">funder</a> <a href=\"/ref/institution\" class=\"tei-ref3\" target=\"\">institution</a> <a href=\"/ref/interaction\" class=\"tei-ref3\" target=\"\">interaction</a> <a href=\"/ref/langKnown\" class=\"tei-ref3\" target=\"\">langKnown</a> <a href=\"/ref/language\" class=\"tei-ref3\" target=\"\">language</a> <a href=\"/ref/locale\" class=\"tei-ref3\" target=\"\">locale</a> <a href=\"/ref/metSym\" class=\"tei-ref3\" target=\"\">metSym</a> <a href=\"/ref/preparedness\" class=\"tei-ref3\" target=\"\">preparedness</a> <a href=\"/ref/principal\" class=\"tei-ref3\" target=\"\">principal</a> <a href=\"/ref/purpose\" class=\"tei-ref3\" target=\"\">purpose</a> <a href=\"/ref/repository\" class=\"tei-ref3\" target=\"\">repository</a> <a href=\"/ref/resp\" class=\"tei-ref3\" target=\"\">resp</a> <a href=\"/ref/span\" class=\"tei-ref3\" target=\"\">span</a> <a href=\"/ref/sponsor\" class=\"tei-ref3\" target=\"\">sponsor</a> <a href=\"/ref/valDesc\" class=\"tei-ref3\" target=\"\">valDesc</a> </td></tr><tr><td>Content model</td><td><pb-code-highlight language=\"xml\" theme=\"solarizedlight\">&lt;content&gt;\n    \n      &lt;alternate minOccurs=\"0\" maxOccurs=\"unbounded\"&gt;\n        &lt;textNode/&gt;\n        &lt;classRef key=\"model.limitedPhrase\"/&gt;\n        &lt;classRef key=\"model.global\"/&gt;\n      &lt;/alternate&gt;\n    \n  &lt;/content&gt;</pb-code-highlight></td></tr><!-- Declaration --></tbody></table></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

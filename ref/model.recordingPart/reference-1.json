@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.14.24.157",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.recordingPart</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups elements used to describe details of an audio or video recording.</span> [<a href=\"/p5.xml?id=HD32#HD32\" class=\"inner-ref\">8.2 Documenting the Source of Transcribed Speech</a>]</td></tr><tr><td>Module</td><td>spoken — <span class=\"tei-desc2\">Transcribed Speech</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/recording\" class=\"tei-ref3\" target=\"\">recording</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/model.dateLike\" class=\"tei-ref3\" target=\"\">model.dateLike</a> [ <a href=\"/ref/date\" class=\"tei-ref3\" target=\"\">date</a> <a href=\"/ref/time\" class=\"tei-ref3\" target=\"\">time</a>  ] <a href=\"/ref/broadcast\" class=\"tei-ref3\" target=\"\">broadcast</a> <a href=\"/ref/equipment\" class=\"tei-ref3\" target=\"\">equipment</a> <a href=\"/ref/media\" class=\"tei-ref3\" target=\"\">media</a> <a href=\"/ref/respStmt\" class=\"tei-ref3\" target=\"\">respStmt</a> </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

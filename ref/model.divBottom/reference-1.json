@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.14.24.147",
+    "id": "DIVBOT",
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.divBottom</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups elements appearing at the end of a text\n    division.</span> [<a href=\"/p5.xml?id=DSDTB#DSDTB\" class=\"inner-ref\">4.2 Elements Common to All Divisions</a>]</td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/body\" class=\"tei-ref3\" target=\"\">body</a> <a href=\"/ref/div\" class=\"tei-ref3\" target=\"\">div</a> <a href=\"/ref/div1\" class=\"tei-ref3\" target=\"\">div1</a> <a href=\"/ref/div2\" class=\"tei-ref3\" target=\"\">div2</a> <a href=\"/ref/div3\" class=\"tei-ref3\" target=\"\">div3</a> <a href=\"/ref/div4\" class=\"tei-ref3\" target=\"\">div4</a> <a href=\"/ref/div5\" class=\"tei-ref3\" target=\"\">div5</a> <a href=\"/ref/div6\" class=\"tei-ref3\" target=\"\">div6</a> <a href=\"/ref/div7\" class=\"tei-ref3\" target=\"\">div7</a> <a href=\"/ref/epilogue\" class=\"tei-ref3\" target=\"\">epilogue</a> <a href=\"/ref/figure\" class=\"tei-ref3\" target=\"\">figure</a> <a href=\"/ref/front\" class=\"tei-ref3\" target=\"\">front</a> <a href=\"/ref/group\" class=\"tei-ref3\" target=\"\">group</a> <a href=\"/ref/lg\" class=\"tei-ref3\" target=\"\">lg</a> <a href=\"/ref/list\" class=\"tei-ref3\" target=\"\">list</a> <a href=\"/ref/performance\" class=\"tei-ref3\" target=\"\">performance</a> <a href=\"/ref/prologue\" class=\"tei-ref3\" target=\"\">prologue</a> <a href=\"/ref/table\" class=\"tei-ref3\" target=\"\">table</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/model.divBottomPart\" class=\"tei-ref3\" target=\"\">model.divBottomPart</a> [ <a href=\"/ref/closer\" class=\"tei-ref3\" target=\"\">closer</a> <a href=\"/ref/postscript\" class=\"tei-ref3\" target=\"\">postscript</a> <a href=\"/ref/signed\" class=\"tei-ref3\" target=\"\">signed</a> <a href=\"/ref/trailer\" class=\"tei-ref3\" target=\"\">trailer</a>  ] <a href=\"/ref/model.divWrapper\" class=\"tei-ref3\" target=\"\">model.divWrapper</a> [ <a href=\"/ref/argument\" class=\"tei-ref3\" target=\"\">argument</a> <a href=\"/ref/byline\" class=\"tei-ref3\" target=\"\">byline</a> <a href=\"/ref/dateline\" class=\"tei-ref3\" target=\"\">dateline</a> <a href=\"/ref/docAuthor\" class=\"tei-ref3\" target=\"\">docAuthor</a> <a href=\"/ref/docDate\" class=\"tei-ref3\" target=\"\">docDate</a> <a href=\"/ref/epigraph\" class=\"tei-ref3\" target=\"\">epigraph</a> <a href=\"/ref/meeting\" class=\"tei-ref3\" target=\"\">meeting</a> <a href=\"/ref/salute\" class=\"tei-ref3\" target=\"\">salute</a>  ] </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

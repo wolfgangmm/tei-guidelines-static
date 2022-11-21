@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.14.24.123",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.descLike</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups elements which contain a description of their function.</span></td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/altGrp\" class=\"tei-ref3\" target=\"\">altGrp</a> <a href=\"/ref/attDef\" class=\"tei-ref3\" target=\"\">attDef</a> <a href=\"/ref/category\" class=\"tei-ref3\" target=\"\">category</a> <a href=\"/ref/certainty\" class=\"tei-ref3\" target=\"\">certainty</a> <a href=\"/ref/char\" class=\"tei-ref3\" target=\"\">char</a> <a href=\"/ref/citeStructure\" class=\"tei-ref3\" target=\"\">citeStructure</a> <a href=\"/ref/classSpec\" class=\"tei-ref3\" target=\"\">classSpec</a> <a href=\"/ref/constraintSpec\" class=\"tei-ref3\" target=\"\">constraintSpec</a> <a href=\"/ref/dataSpec\" class=\"tei-ref3\" target=\"\">dataSpec</a> <a href=\"/ref/elementSpec\" class=\"tei-ref3\" target=\"\">elementSpec</a> <a href=\"/ref/ellipsis\" class=\"tei-ref3\" target=\"\">ellipsis</a> <a href=\"/ref/gap\" class=\"tei-ref3\" target=\"\">gap</a> <a href=\"/ref/glyph\" class=\"tei-ref3\" target=\"\">glyph</a> <a href=\"/ref/graphic\" class=\"tei-ref3\" target=\"\">graphic</a> <a href=\"/ref/incident\" class=\"tei-ref3\" target=\"\">incident</a> <a href=\"/ref/interp\" class=\"tei-ref3\" target=\"\">interp</a> <a href=\"/ref/interpGrp\" class=\"tei-ref3\" target=\"\">interpGrp</a> <a href=\"/ref/join\" class=\"tei-ref3\" target=\"\">join</a> <a href=\"/ref/joinGrp\" class=\"tei-ref3\" target=\"\">joinGrp</a> <a href=\"/ref/kinesic\" class=\"tei-ref3\" target=\"\">kinesic</a> <a href=\"/ref/linkGrp\" class=\"tei-ref3\" target=\"\">linkGrp</a> <a href=\"/ref/macroSpec\" class=\"tei-ref3\" target=\"\">macroSpec</a> <a href=\"/ref/media\" class=\"tei-ref3\" target=\"\">media</a> <a href=\"/ref/model\" class=\"tei-ref3\" target=\"\">model</a> <a href=\"/ref/modelGrp\" class=\"tei-ref3\" target=\"\">modelGrp</a> <a href=\"/ref/modelSequence\" class=\"tei-ref3\" target=\"\">modelSequence</a> <a href=\"/ref/moduleSpec\" class=\"tei-ref3\" target=\"\">moduleSpec</a> <a href=\"/ref/paramSpec\" class=\"tei-ref3\" target=\"\">paramSpec</a> <a href=\"/ref/precision\" class=\"tei-ref3\" target=\"\">precision</a> <a href=\"/ref/respons\" class=\"tei-ref3\" target=\"\">respons</a> <a href=\"/ref/schemaRef\" class=\"tei-ref3\" target=\"\">schemaRef</a> <a href=\"/ref/schemaSpec\" class=\"tei-ref3\" target=\"\">schemaSpec</a> <a href=\"/ref/space\" class=\"tei-ref3\" target=\"\">space</a> <a href=\"/ref/spanGrp\" class=\"tei-ref3\" target=\"\">spanGrp</a> <a href=\"/ref/substJoin\" class=\"tei-ref3\" target=\"\">substJoin</a> <a href=\"/ref/taxonomy\" class=\"tei-ref3\" target=\"\">taxonomy</a> <a href=\"/ref/valItem\" class=\"tei-ref3\" target=\"\">valItem</a> <a href=\"/ref/vocal\" class=\"tei-ref3\" target=\"\">vocal</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/desc\" class=\"tei-ref3\" target=\"\">desc</a> </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

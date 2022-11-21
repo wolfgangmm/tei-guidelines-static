@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "p5.xml",
+    "root": "1.7.4.38",
+    "rootNode": "1.7.4.38",
+    "id": "GD",
+    "odd": "tei.odd",
+    "next": "1.7.4.40",
+    "previous": "1.7.4.36",
+    "nextId": "NH",
+    "previousId": "FS",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><ul class=\"tei-div2\" id=\"GD\"><li class=\"tei-head1\"><pb-link hash=\"GDGR\" emit=\"transcription\">Graphs and Digraphs</pb-link></li><ul class=\"tei-div2\" id=\"GDGR\"><li class=\"tei-head1\"><pb-link hash=\"GDTN\" emit=\"transcription\">Transition Networks</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"GDFT\" emit=\"transcription\">Family Trees</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"GDHI\" emit=\"transcription\">Historical Interpretation</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"GDTR\" emit=\"transcription\">Trees</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"GDAT\" emit=\"transcription\">Another Tree Notation</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"GDstem\" emit=\"transcription\">Representing Textual Transmission</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"\" emit=\"transcription\">Module for Graphs, Networks, and Trees</pb-link></li></ul></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "guide",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

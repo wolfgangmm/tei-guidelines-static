@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "p5.xml",
+    "root": "1.7.4.8",
+    "rootNode": "1.7.4.8",
+    "id": "DS",
+    "odd": "tei.odd",
+    "next": "1.7.4.10",
+    "previous": "1.7.4.6",
+    "nextId": "WD",
+    "previousId": "CO",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><ul class=\"tei-div2\" id=\"DS\"><li class=\"tei-head1\"><pb-link hash=\"DSDIV\" emit=\"transcription\">Divisions of the Body</pb-link></li><ul class=\"tei-div2\" id=\"DSDIV\"><li class=\"tei-head1\"><pb-link hash=\"DSDIV1\" emit=\"transcription\">Un-numbered Divisions</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSDIV2\" emit=\"transcription\">Numbered Divisions</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSDIV3\" emit=\"transcription\">Numbered or Un-numbered?</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSDIV3X\" emit=\"transcription\">Partial and Composite Divisions</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DSDTB\" emit=\"transcription\">Elements Common to All Divisions</pb-link></li><ul class=\"tei-div2\" id=\"DSDTB\"><li class=\"tei-head1\"><pb-link hash=\"DSHD\" emit=\"transcription\">Headings and Trailers</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSOC\" emit=\"transcription\">Openers and Closers</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSAE\" emit=\"transcription\">Arguments, Epigraphs, and Postscripts</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSCO\" emit=\"transcription\">Content of Textual Divisions</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DSGRPF\" emit=\"transcription\">Grouped and Floating Texts</pb-link></li><ul class=\"tei-div2\" id=\"DSGRPF\"><li class=\"tei-head1\"><pb-link hash=\"DSGRP\" emit=\"transcription\">Grouped Texts</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSFLT\" emit=\"transcription\">Floating Texts</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DSVIRT\" emit=\"transcription\">Virtual Divisions</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSFRONT\" emit=\"transcription\">Front Matter</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSTITL\" emit=\"transcription\">Title Pages</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSBACK\" emit=\"transcription\">Back Matter</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DSSTRUC\" emit=\"transcription\">Module for Default Text Structure</pb-link></li></ul></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "guide",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

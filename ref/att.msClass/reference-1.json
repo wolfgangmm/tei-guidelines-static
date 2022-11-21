@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.20.16.28.22.5",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"element-spec\"><h3>att.msClass</h3><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">provides attributes to indicate text type or classification.</span> [<a href=\"/p5.xml?id=msco#msco\" class=\"inner-ref\">10.6 Intellectual Content</a><a href=\"/p5.xml?id=mscoit#mscoit\" class=\"inner-ref\">10.6.1 The msItem and msItemStruct Elements</a>]</td></tr><tr><td>Module</td><td>msdescription — <span class=\"tei-desc2\">Manuscript Description</span></td></tr><tr><td>Members</td><td><a href=\"/ref/msContents\" class=\"tei-ref3\" target=\"\">msContents</a> <a href=\"/ref/msItem\" class=\"tei-ref3\" target=\"\">msItem</a> <a href=\"/ref/msItemStruct\" class=\"tei-ref3\" target=\"\">msItemStruct</a> </td></tr><tr><td>Attributes</td><td><dl class=\"att-class\"></dl>\n      <dl><dt>@class</dt><dd><span class=\"tei-desc2\">identifies the text types or classifications applicable to this\n            item by pointing to other elements or resources defining the\n            classification concerned. </span><dl><dt>Usage</dt><dd></dd><dt>Datatype</dt><dd>teidata.pointer</dd></dl></dd></dl>\n   </td></tr></tbody></table></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

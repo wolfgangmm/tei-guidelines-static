@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "p5.xml",
+    "root": "1.7.4.30",
+    "rootNode": "1.7.4.30",
+    "id": "CC",
+    "odd": "tei.odd",
+    "next": "1.7.4.32",
+    "previous": "1.7.4.28",
+    "nextId": "SA",
+    "previousId": "FT",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><ul class=\"tei-div2\" id=\"CC\"><li class=\"tei-head1\"><pb-link hash=\"CCDEF\" emit=\"transcription\">Varieties of Composite Text</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"CCAH\" emit=\"transcription\">Contextual Information</pb-link></li><ul class=\"tei-div2\" id=\"CCAH\"><li class=\"tei-head1\"><pb-link hash=\"CCAHTD\" emit=\"transcription\">The Text Description</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"CCAHPA\" emit=\"transcription\">The Participant Description</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"CCAHSE\" emit=\"transcription\">The Setting Description</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"CCAS\" emit=\"transcription\">Associating Contextual\nInformation with a Text</pb-link></li><ul class=\"tei-div2\" id=\"CCAS\"><li class=\"tei-head1\"><pb-link hash=\"CCAS1\" emit=\"transcription\">Combining Corpus and Text Headers</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"CCAS2\" emit=\"transcription\">Declarable Elements</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"CCAS3\" emit=\"transcription\">Summary</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"CCAN\" emit=\"transcription\">Linguistic Annotation of Corpora</pb-link></li><ul class=\"tei-div2\" id=\"CCAN\"><li class=\"tei-head1\"><pb-link hash=\"CCAN1\" emit=\"transcription\">Levels of Analysis</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"CCREC\" emit=\"transcription\">Recommendations for the Encoding of Large Corpora</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"\" emit=\"transcription\">Module for Language Corpora</pb-link></li></ul></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "guide",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

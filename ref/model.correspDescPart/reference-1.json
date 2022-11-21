@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.4.21.27.29.13",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.correspDescPart</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups together metadata\n        elements for describing correspondence</span></td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/correspDesc\" class=\"tei-ref3\" target=\"\">correspDesc</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/correspAction\" class=\"tei-ref3\" target=\"\">correspAction</a> <a href=\"/ref/correspContext\" class=\"tei-ref3\" target=\"\">correspContext</a> <a href=\"/ref/note\" class=\"tei-ref3\" target=\"\">note</a> <a href=\"/ref/noteGrp\" class=\"tei-ref3\" target=\"\">noteGrp</a> </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

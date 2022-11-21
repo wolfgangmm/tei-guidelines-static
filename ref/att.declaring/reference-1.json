@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.12.16.23.6.42",
+    "id": "DECLING",
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"element-spec\"><h3>att.declaring</h3><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">provides attributes for elements which may be independently associated with a particular declarable element within the header, thus overriding the inherited default for that element.</span> [<a href=\"/p5.xml?id=CCAS#CCAS\" class=\"inner-ref\">15.3 Associating Contextual\nInformation with a Text</a>]</td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Members</td><td><a href=\"/ref/ab\" class=\"tei-ref3\" target=\"\">ab</a> <a href=\"/ref/back\" class=\"tei-ref3\" target=\"\">back</a> <a href=\"/ref/body\" class=\"tei-ref3\" target=\"\">body</a> <a href=\"/ref/div\" class=\"tei-ref3\" target=\"\">div</a> <a href=\"/ref/div1\" class=\"tei-ref3\" target=\"\">div1</a> <a href=\"/ref/div2\" class=\"tei-ref3\" target=\"\">div2</a> <a href=\"/ref/div3\" class=\"tei-ref3\" target=\"\">div3</a> <a href=\"/ref/div4\" class=\"tei-ref3\" target=\"\">div4</a> <a href=\"/ref/div5\" class=\"tei-ref3\" target=\"\">div5</a> <a href=\"/ref/div6\" class=\"tei-ref3\" target=\"\">div6</a> <a href=\"/ref/div7\" class=\"tei-ref3\" target=\"\">div7</a> <a href=\"/ref/facsimile\" class=\"tei-ref3\" target=\"\">facsimile</a> <a href=\"/ref/floatingText\" class=\"tei-ref3\" target=\"\">floatingText</a> <a href=\"/ref/front\" class=\"tei-ref3\" target=\"\">front</a> <a href=\"/ref/geo\" class=\"tei-ref3\" target=\"\">geo</a> <a href=\"/ref/gloss\" class=\"tei-ref3\" target=\"\">gloss</a> <a href=\"/ref/graphic\" class=\"tei-ref3\" target=\"\">graphic</a> <a href=\"/ref/group\" class=\"tei-ref3\" target=\"\">group</a> <a href=\"/ref/lg\" class=\"tei-ref3\" target=\"\">lg</a> <a href=\"/ref/listAnnotation\" class=\"tei-ref3\" target=\"\">listAnnotation</a> <a href=\"/ref/media\" class=\"tei-ref3\" target=\"\">media</a> <a href=\"/ref/msDesc\" class=\"tei-ref3\" target=\"\">msDesc</a> <a href=\"/ref/object\" class=\"tei-ref3\" target=\"\">object</a> <a href=\"/ref/p\" class=\"tei-ref3\" target=\"\">p</a> <a href=\"/ref/ptr\" class=\"tei-ref3\" target=\"\">ptr</a> <a href=\"/ref/ref\" class=\"tei-ref3\" target=\"\">ref</a> <a href=\"/ref/sourceDoc\" class=\"tei-ref3\" target=\"\">sourceDoc</a> <a href=\"/ref/standOff\" class=\"tei-ref3\" target=\"\">standOff</a> <a href=\"/ref/surface\" class=\"tei-ref3\" target=\"\">surface</a> <a href=\"/ref/surfaceGrp\" class=\"tei-ref3\" target=\"\">surfaceGrp</a> <a href=\"/ref/term\" class=\"tei-ref3\" target=\"\">term</a> <a href=\"/ref/text\" class=\"tei-ref3\" target=\"\">text</a> <a href=\"/ref/u\" class=\"tei-ref3\" target=\"\">u</a> </td></tr><tr><td>Attributes</td><td><dl class=\"att-class\"></dl>\n    <dl><dt>@decls</dt><dd><span class=\"tei-desc2\">identifies one or more <span class=\"tei-term\">declarable elements</span> within the\nheader, which are understood to apply to the element bearing this\nattribute and its content.</span><dl><dt>Usage</dt><dd>opt</dd><dt>Datatype</dt><dd>teidata.pointer</dd></dl></dd></dl>\n  </td></tr></tbody></table></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

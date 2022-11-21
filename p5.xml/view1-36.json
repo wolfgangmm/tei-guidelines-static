@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "p5.xml",
+    "root": "1.7.6.14",
+    "rootNode": "1.7.6.14",
+    "id": "DEPRECATIONS",
+    "odd": "tei.odd",
+    "next": "1.7.6.16",
+    "previous": "1.7.6.12",
+    "nextId": "PREFS",
+    "previousId": "BIB",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><section data-tei=\"1.7.6.14\" class=\"tei-div9\" id=\"DEPRECATIONS\">\n  <h1 data-tei=\"1.7.6.14.4\" class=\"tei-head9\"><pb-clipboard data-i18n=\"[label]clipboard.copy\"><a href=\"/?id=DEPRECATIONS\">7 Deprecations</a></pb-clipboard></h1>\n  <div data-tei=\"1.7.6.14.6\" class=\"tei-div10\">\n    <h2 data-tei=\"1.7.6.14.6.2\" class=\"tei-head9\"><pb-clipboard data-i18n=\"[label]clipboard.copy\"><a href=\"/?id=\">7.1 Items Scheduled to be Removed</a></pb-clipboard></h2>\n    <p data-tei=\"1.7.6.14.6.4\" class=\"tei-p\">This appendix provides a partial list of items (elements,\n    attributes, attribute values, datatypes etc.) which are deprecated\n    in this revision of the TEI Guidelines (revision <a data-tei=\"1.7.6.14.6.4.2\" href=\"https://github.com/TEIC/TEI/commit/e64bcedf9\" class=\"tei-ref3\" target=\"\">e64bcedf9</a> of TEI P5 <a data-tei=\"1.7.6.14.6.4.4\" href=\"#ABTEI4\" class=\"tei-ref3\" target=\"\">Version</a>&nbsp;<a data-tei=\"1.7.6.14.6.4.6\" href=\"../../readme-4.5.0.html\" class=\"tei-ref3\" target=\"\">4.5.0a</a>).</p>\n  </div>\n  \n</section></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "track-ids": "True",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

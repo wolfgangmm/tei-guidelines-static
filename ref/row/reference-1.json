@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.28.23.10.36.6",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"element-spec\"><h3 class=\"ident\">row</h3><table><tbody><tr><td colspan=\"2\"><span class=\"ident bracket\">row</span><span class=\"tei-gloss1 gloss\">row</span> <span class=\"tei-desc2\">contains one row of a table.</span> [<a href=\"/p5.xml?id=FTTAB1#FTTAB1\" class=\"inner-ref\">14.1.1 TEI Tables</a> ]</td></tr><tr><td>Module</td><td>figures — <span class=\"tei-desc2\">Tables, formulæ, notated music, and figures</span></td></tr><tr><td>Attributes</td><td><dl class=\"att-class\"><li class=\"tei-item\"><a href=\"/ref/att.global\" class=\"tei-ref3\" target=\"\">att.global</a> ( @xml:id ,  @n ,  @xml:lang ,  @xml:base ,  @xml:space )  (<a href=\"/ref/att.global.rendition\" class=\"tei-ref3\" target=\"\">att.global.rendition</a> ( @rend ,  @style ,  @rendition ) )  (<a href=\"/ref/att.global.linking\" class=\"tei-ref3\" target=\"\">att.global.linking</a> ( @corresp ,  @synch ,  @sameAs ,  @copyOf ,  @next ,  @prev ,  @exclude ,  @select ) )  (<a href=\"/ref/att.global.analytic\" class=\"tei-ref3\" target=\"\">att.global.analytic</a> ( @ana ) )  (<a href=\"/ref/att.global.facs\" class=\"tei-ref3\" target=\"\">att.global.facs</a> ( @facs ) )  (<a href=\"/ref/att.global.change\" class=\"tei-ref3\" target=\"\">att.global.change</a> ( @change ) )  (<a href=\"/ref/att.global.responsibility\" class=\"tei-ref3\" target=\"\">att.global.responsibility</a> ( @cert ,  @resp ) )  (<a href=\"/ref/att.global.source\" class=\"tei-ref3\" target=\"\">att.global.source</a> ( @source ) )</li><li class=\"tei-item\"><a href=\"/ref/att.tableDecoration\" class=\"tei-ref3\" target=\"\">att.tableDecoration</a> ( @role ,  @rows ,  @cols )</li></dl></td></tr><tr><td>Contained by</td><td><div class=\"module\"><h4>figures</h4>:\n            <ul><li><a href=\"/ref/table\">table</a></li></ul></div></td></tr><tr><td>May contain</td><td><div class=\"module\"><h4>figures</h4>:\n                <ul><li><a href=\"/ref/cell\">cell</a></li></ul></div></td></tr><tr><td>Example</td><td>\n    <div class=\"tei-ex_egXML1\"><pb-code-highlight language=\"xml\" theme=\"solarizedlight\">\n      &lt;row role=\"data\"&gt;\n        &lt;cell role=\"label\"&gt;Classics&lt;/cell&gt;\n        &lt;cell&gt;Idle listless and unimproving&lt;/cell&gt;\n      &lt;/row&gt;\n    </pb-code-highlight></div><pb-popover class=\"alternate tei-ex_egXML2 bibl-link\" id=\"altref_1\"><span slot=\"default\">bibliography</span></pb-popover>\n  </td></tr><tr><td>Content model</td><td><pb-code-highlight language=\"xml\" theme=\"solarizedlight\">&lt;content&gt;\n    \n      &lt;!--      &lt;rng:choice&gt; --&gt;\n      &lt;elementRef key=\"cell\" minOccurs=\"1\" maxOccurs=\"unbounded\"/&gt;\n      &lt;!--        &lt;rng:ref name=\"table\"/&gt;--&gt;\n      &lt;!--       &lt;/rng:choice&gt;--&gt;\n      &lt;!--    &lt;rng:zeroOrMore&gt;\n        &lt;rng:ref name=\"model.global\"/&gt;\n      &lt;/rng:zeroOrMore&gt;--&gt;\n    \n  &lt;/content&gt;</pb-code-highlight></td></tr><!--\n    <tr><td>Schema declaration</td><td>TODO</td></tr>\n--></tbody></table></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

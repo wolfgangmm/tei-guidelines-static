@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "p5.xml",
+    "root": "1.7.4.18",
+    "rootNode": "1.7.4.18",
+    "id": "DI",
+    "odd": "tei.odd",
+    "next": "1.7.4.20",
+    "previous": "1.7.4.16",
+    "nextId": "MS",
+    "previousId": "TS",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><ul class=\"tei-div2\" id=\"DI\"><li class=\"tei-head1\"><pb-link hash=\"DIBO\" emit=\"transcription\">Dictionary Body and Overall Structure</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DIEN\" emit=\"transcription\">The Structure of Dictionary Entries</pb-link></li><ul class=\"tei-div2\" id=\"DIEN\"><li class=\"tei-head1\"><pb-link hash=\"DIENHI\" emit=\"transcription\">Hierarchical Levels</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DIENGP\" emit=\"transcription\">Groups and Constituents</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DITP\" emit=\"transcription\">Top-level Constituents of Entries</pb-link></li><ul class=\"tei-div2\" id=\"DITP\"><li class=\"tei-head1\"><pb-link hash=\"DITPFO\" emit=\"transcription\">Information on Written and Spoken Forms</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DITPGR\" emit=\"transcription\">Grammatical Information</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DITPSE\" emit=\"transcription\">Sense Information</pb-link></li><ul class=\"tei-div2\" id=\"DITPSE\"><li class=\"tei-head1\"><pb-link hash=\"DITPDE\" emit=\"transcription\">Definitions</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DITPTR\" emit=\"transcription\">Translation Equivalents</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DITPET\" emit=\"transcription\">Etymological Information</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DITPMI\" emit=\"transcription\">Other Information</pb-link></li><ul class=\"tei-div2\" id=\"DITPMI\"><li class=\"tei-head1\"><pb-link hash=\"DITPEG\" emit=\"transcription\">Examples</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DITPUS\" emit=\"transcription\">Usage Information and Other Labels</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DITPXR\" emit=\"transcription\">Cross-References to Other Entries</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DITPNO\" emit=\"transcription\">Notes within Entries</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DITPRE\" emit=\"transcription\">Related Entries</pb-link></li></ul><li class=\"tei-head1\"><pb-link hash=\"DIHW\" emit=\"transcription\">Headword and Pronunciation References</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DIMV\" emit=\"transcription\">Typographic and Lexical Information in Dictionary Data</pb-link></li><ul class=\"tei-div2\" id=\"DIMV\"><li class=\"tei-head1\"><pb-link hash=\"DIMVTV\" emit=\"transcription\">Editorial View</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DIMVLV\" emit=\"transcription\">Lexical View</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DIMVBO\" emit=\"transcription\">Retaining Both Views</pb-link></li><ul class=\"tei-div2\" id=\"DIMVBO\"><li class=\"tei-head1\"><pb-link hash=\"DIMVAV\" emit=\"transcription\">Using Attribute Values to Capture Alternate Views</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"DIMVOL\" emit=\"transcription\">Recording Original Locations of Transposed Elements</pb-link></li></ul></ul><li class=\"tei-head1\"><pb-link hash=\"DIFR\" emit=\"transcription\">Unstructured Entries</pb-link></li><li class=\"tei-head1\"><pb-link hash=\"\" emit=\"transcription\">The Dictionary Module</pb-link></li></ul></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "guide",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

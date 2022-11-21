@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.12.16.23.6.114",
+    "id": "TIMED",
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"element-spec\"><h3>att.timed</h3><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">provides attributes common to those elements which\n  have a duration in time, expressed either absolutely or by reference\n  to an alignment map.</span> [<a href=\"/p5.xml?id=TSBATI#TSBATI\" class=\"inner-ref\">8.3.5 Temporal Information</a>]</td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Members</td><td><a href=\"/ref/annotationBlock\" class=\"tei-ref3\" target=\"\">annotationBlock</a> <a href=\"/ref/binaryObject\" class=\"tei-ref3\" target=\"\">binaryObject</a> <a href=\"/ref/ellipsis\" class=\"tei-ref3\" target=\"\">ellipsis</a> <a href=\"/ref/gap\" class=\"tei-ref3\" target=\"\">gap</a> <a href=\"/ref/incident\" class=\"tei-ref3\" target=\"\">incident</a> <a href=\"/ref/kinesic\" class=\"tei-ref3\" target=\"\">kinesic</a> <a href=\"/ref/media\" class=\"tei-ref3\" target=\"\">media</a> <a href=\"/ref/pause\" class=\"tei-ref3\" target=\"\">pause</a> <a href=\"/ref/u\" class=\"tei-ref3\" target=\"\">u</a> <a href=\"/ref/vocal\" class=\"tei-ref3\" target=\"\">vocal</a> <a href=\"/ref/writing\" class=\"tei-ref3\" target=\"\">writing</a> </td></tr><tr><td>Attributes</td><td><dl class=\"att-class\"><li class=\"tei-item\"><a href=\"/ref/att.duration\" class=\"tei-ref3\" target=\"\">att.duration</a> ( )  (<a href=\"/ref/att.duration.w3c\" class=\"tei-ref3\" target=\"\">att.duration.w3c</a> ( @dur ) )  (<a href=\"/ref/att.duration.iso\" class=\"tei-ref3\" target=\"\">att.duration.iso</a> ( @dur-iso ) )</li></dl>\n    <dl><dt>@start</dt><dd><span class=\"tei-desc2\">indicates the location within a temporal alignment at\n      which this element begins.</span><dl><dt>Usage</dt><dd>opt</dd><dt>Datatype</dt><dd>teidata.pointer</dd></dl></dd></dl>\n    <dl><dt>@end</dt><dd><span class=\"tei-desc2\">indicates the location within a temporal alignment at\n      which this element ends.</span><dl><dt>Usage</dt><dd>opt</dd><dt>Datatype</dt><dd>teidata.pointer</dd></dl></dd></dl>\n  </td></tr></tbody></table></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

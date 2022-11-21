@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.14.24.237",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.editorialDeclPart</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups elements which may be used inside <a href=\"/ref/editorialDecl\" class=\"tei-gi\" target=\"\">editorialDecl</a> and appear multiple times.</span></td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/editorialDecl\" class=\"tei-ref3\" target=\"\">editorialDecl</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/correction\" class=\"tei-ref3\" target=\"\">correction</a> <a href=\"/ref/hyphenation\" class=\"tei-ref3\" target=\"\">hyphenation</a> <a href=\"/ref/interpretation\" class=\"tei-ref3\" target=\"\">interpretation</a> <a href=\"/ref/normalization\" class=\"tei-ref3\" target=\"\">normalization</a> <a href=\"/ref/punctuation\" class=\"tei-ref3\" target=\"\">punctuation</a> <a href=\"/ref/quotation\" class=\"tei-ref3\" target=\"\">quotation</a> <a href=\"/ref/segmentation\" class=\"tei-ref3\" target=\"\">segmentation</a> <a href=\"/ref/stdVals\" class=\"tei-ref3\" target=\"\">stdVals</a> </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

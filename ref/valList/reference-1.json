@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.44.29.22.36",
+    "id": null,
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"element-spec\"><h3 class=\"ident\">valList</h3><table><tbody><tr><td colspan=\"2\"><span class=\"ident bracket\">valList</span><span class=\"tei-gloss1 gloss\">value list</span> <span class=\"tei-desc2\">contains one or more <a href=\"/ref/valItem\" class=\"tei-gi\" target=\"\">valItem</a> elements defining possible values.</span> [<a href=\"/p5.xml?id=TDATT#TDATT\" class=\"inner-ref\">22.5.3 Attribute List Specification</a> ]</td></tr><tr><td>Module</td><td>tagdocs — <span class=\"tei-desc2\">Documentation of TEI and other XML markup languages</span></td></tr><tr><td>Attributes</td><td><dl class=\"att-class\"><li class=\"tei-item\"><a href=\"/ref/att.global\" class=\"tei-ref3\" target=\"\">att.global</a> ( @xml:id ,  @n ,  @xml:lang ,  @xml:base ,  @xml:space )  (<a href=\"/ref/att.global.rendition\" class=\"tei-ref3\" target=\"\">att.global.rendition</a> ( @rend ,  @style ,  @rendition ) )  (<a href=\"/ref/att.global.linking\" class=\"tei-ref3\" target=\"\">att.global.linking</a> ( @corresp ,  @synch ,  @sameAs ,  @copyOf ,  @next ,  @prev ,  @exclude ,  @select ) )  (<a href=\"/ref/att.global.analytic\" class=\"tei-ref3\" target=\"\">att.global.analytic</a> ( @ana ) )  (<a href=\"/ref/att.global.facs\" class=\"tei-ref3\" target=\"\">att.global.facs</a> ( @facs ) )  (<a href=\"/ref/att.global.change\" class=\"tei-ref3\" target=\"\">att.global.change</a> ( @change ) )  (<a href=\"/ref/att.global.responsibility\" class=\"tei-ref3\" target=\"\">att.global.responsibility</a> ( @cert ,  @resp ) )  (<a href=\"/ref/att.global.source\" class=\"tei-ref3\" target=\"\">att.global.source</a> ( @source ) )</li><li class=\"tei-item\"><a href=\"/ref/att.combinable\" class=\"tei-ref3\" target=\"\">att.combinable</a> ( @mode )  (<a href=\"/ref/att.deprecated\" class=\"tei-ref3\" target=\"\">att.deprecated</a> ( @validUntil ) )</li></dl>\n    <dl><dt>@type</dt><dd><span class=\"tei-desc2\">specifies the extensibility of the list of values specified.</span><dl><dt>Usage</dt><dd>opt</dd><dt>Datatype</dt><dd>teidata.enumerated</dd></dl></dd></dl>\n  </td></tr><tr><td>Contained by</td><td><div class=\"module\"><h4>tagdocs</h4>:\n            <ul><li><a href=\"/ref/alternate\">alternate</a></li><li><a href=\"/ref/attDef\">attDef</a></li><li><a href=\"/ref/content\">content</a></li><li><a href=\"/ref/dataSpec\">dataSpec</a></li><li><a href=\"/ref/elementSpec\">elementSpec</a></li><li><a href=\"/ref/macroSpec\">macroSpec</a></li></ul></div></td></tr><tr><td>May contain</td><td><div class=\"module\"><h4>tagdocs</h4>:\n                <ul><li><a href=\"/ref/valItem\">valItem</a></li></ul></div></td></tr><tr><td>Example</td><td>\n    <div class=\"tei-ex_egXML1\"><pb-code-highlight language=\"xml\" theme=\"solarizedlight\">\n      &lt;valList type=\"closed\"&gt;\n        &lt;valItem ident=\"req\"&gt;\n          &lt;gloss&gt;required&lt;/gloss&gt;\n        &lt;/valItem&gt;\n        &lt;valItem ident=\"rec\"&gt;\n          &lt;gloss&gt;recommended&lt;/gloss&gt;\n        &lt;/valItem&gt;\n        &lt;valItem ident=\"opt\"&gt;\n          &lt;gloss&gt;optional&lt;/gloss&gt;\n        &lt;/valItem&gt;\n      &lt;/valList&gt;\n    </pb-code-highlight></div><pb-popover class=\"alternate tei-ex_egXML2 bibl-link\" id=\"altref_1\"><span slot=\"default\">bibliography</span></pb-popover>\n  </td></tr><tr><td>Content model</td><td><pb-code-highlight language=\"xml\" theme=\"solarizedlight\">&lt;content&gt;\n    &lt;elementRef key=\"valItem\" minOccurs=\"0\" maxOccurs=\"unbounded\"/&gt;\n  &lt;/content&gt;</pb-code-highlight></td></tr><!--\n    <tr><td>Schema declaration</td><td>TODO</td></tr>\n--></tbody></table></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

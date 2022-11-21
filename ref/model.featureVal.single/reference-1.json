@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.14.24.89",
+    "id": "SINGVAL",
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.featureVal.single</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">group elements used to represent atomic feature values in feature structures.</span></td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/vColl\" class=\"tei-ref3\" target=\"\">vColl</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/binary\" class=\"tei-ref3\" target=\"\">binary</a> <a href=\"/ref/default\" class=\"tei-ref3\" target=\"\">default</a> <a href=\"/ref/numeric\" class=\"tei-ref3\" target=\"\">numeric</a> <a href=\"/ref/string\" class=\"tei-ref3\" target=\"\">string</a> <a href=\"/ref/symbol\" class=\"tei-ref3\" target=\"\">symbol</a> <a href=\"/ref/vAlt\" class=\"tei-ref3\" target=\"\">vAlt</a> <a href=\"/ref/vLabel\" class=\"tei-ref3\" target=\"\">vLabel</a> </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

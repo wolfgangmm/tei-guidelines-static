@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.2.27.14.24.175",
+    "id": "NAMING",
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.nameLike</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups elements which name or refer to a person, place, or organization.</span></td></tr><tr><td>Module</td><td>tei — <span class=\"tei-desc2\">Declarations for classes, datatypes, and macros available to all TEI modules</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/org\" class=\"tei-ref3\" target=\"\">org</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/model.nameLike.agent\" class=\"tei-ref3\" target=\"\">model.nameLike.agent</a> [ <a href=\"/ref/name\" class=\"tei-ref3\" target=\"\">name</a> <a href=\"/ref/orgName\" class=\"tei-ref3\" target=\"\">orgName</a> <a href=\"/ref/persName\" class=\"tei-ref3\" target=\"\">persName</a>  ] <a href=\"/ref/model.offsetLike\" class=\"tei-ref3\" target=\"\">model.offsetLike</a> [ <a href=\"/ref/geogFeat\" class=\"tei-ref3\" target=\"\">geogFeat</a> <a href=\"/ref/offset\" class=\"tei-ref3\" target=\"\">offset</a>  ] <a href=\"/ref/model.persNamePart\" class=\"tei-ref3\" target=\"\">model.persNamePart</a> [ <a href=\"/ref/addName\" class=\"tei-ref3\" target=\"\">addName</a> <a href=\"/ref/forename\" class=\"tei-ref3\" target=\"\">forename</a> <a href=\"/ref/genName\" class=\"tei-ref3\" target=\"\">genName</a> <a href=\"/ref/nameLink\" class=\"tei-ref3\" target=\"\">nameLink</a> <a href=\"/ref/persPronouns\" class=\"tei-ref3\" target=\"\">persPronouns</a> <a href=\"/ref/roleName\" class=\"tei-ref3\" target=\"\">roleName</a> <a href=\"/ref/surname\" class=\"tei-ref3\" target=\"\">surname</a>  ] <a href=\"/ref/model.placeStateLike\" class=\"tei-ref3\" target=\"\">model.placeStateLike</a> [ <a href=\"/ref/climate\" class=\"tei-ref3\" target=\"\">climate</a> <a href=\"/ref/location\" class=\"tei-ref3\" target=\"\">location</a> <a href=\"/ref/population\" class=\"tei-ref3\" target=\"\">population</a> <a href=\"/ref/state\" class=\"tei-ref3\" target=\"\">state</a> <a href=\"/ref/terrain\" class=\"tei-ref3\" target=\"\">terrain</a> <a href=\"/ref/trait\" class=\"tei-ref3\" target=\"\">trait</a>  ] <a href=\"/ref/idno\" class=\"tei-ref3\" target=\"\">idno</a> <a href=\"/ref/lang\" class=\"tei-ref3\" target=\"\">lang</a> <a href=\"/ref/objectName\" class=\"tei-ref3\" target=\"\">objectName</a> <a href=\"/ref/rs\" class=\"tei-ref3\" target=\"\">rs</a> </td></tr><tr><td>Note</td><td>\n    <p class=\"tei-p\">A superset of the naming elements that may appear in datelines, addresses, statements of\n      responsibility, etc.</p>\n  </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}

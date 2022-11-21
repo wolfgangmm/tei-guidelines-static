@@ -1,0 +1,3 @@
+{
+    "odd=tei.odd&user.lng=en&user.mode=ref&view=single&xpath=//(elementSpec|classSpec|macroSpec|attSpec|dataSpec)[@ident='abbr']": "reference-1.json"
+}

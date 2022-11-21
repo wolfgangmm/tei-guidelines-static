@@ -1,0 +1,22 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "p5.xml",
+    "root": null,
+    "rootNode": "1.7.4.18.23.8.38.10",
+    "id": "FORMINFO",
+    "odd": "tei.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-classSpec1\"><div class=\"element-spec\"><h3>model.formPart</h3><span class=\"tei-ref-cell1\"></span><table><tbody><tr><td colspan=\"2\"> <span class=\"tei-desc2\">groups elements allowed within a <a href=\"/ref/form\" class=\"tei-gi\" target=\"\">form</a> element in a dictionary.</span> [<a href=\"/p5.xml?id=DITPFO#DITPFO\" class=\"inner-ref\">9.3.1 Information on Written and Spoken Forms</a>]</td></tr><tr><td>Module</td><td>dictionaries — <span class=\"tei-desc2\">Dictionaries</span></td></tr><tr><td>Used by</td><td><a href=\"/ref/form\" class=\"tei-ref3\" target=\"\">form</a> </td></tr><tr><td>Members</td><td><a href=\"/ref/model.gramPart\" class=\"tei-ref3\" target=\"\">model.gramPart</a> [  ] <a href=\"/ref/form\" class=\"tei-ref3\" target=\"\">form</a> <a href=\"/ref/hyph\" class=\"tei-ref3\" target=\"\">hyph</a> <a href=\"/ref/orth\" class=\"tei-ref3\" target=\"\">orth</a> <a href=\"/ref/pron\" class=\"tei-ref3\" target=\"\">pron</a> <a href=\"/ref/stress\" class=\"tei-ref3\" target=\"\">stress</a> <a href=\"/ref/syll\" class=\"tei-ref3\" target=\"\">syll</a> </td></tr></tbody></table></div></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "ref",
+        "webcomponents": 7,
+        "lng": "en"
+    },
+    "collection": ""
+}
