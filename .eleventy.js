@@ -14,6 +14,7 @@ module.exports = (eleventyConfig) => {
         'node_modules/workbox-sw/build/workbox-sw.js': 'resources/scripts/workbox-sw.js',
         'node_modules/@teipublisher/pb-components/dist/*.js': 'resources/scripts',
         'node_modules/@teipublisher/pb-components/i18n/common/*': 'resources/i18n/common',
+        'node_modules/prismjs/themes/prism-solarizedlight.min.css': 'resources/css/prism-solarizedlight.min.css'
     });
 
     eleventyConfig.addPlugin(tpPlugin, {
