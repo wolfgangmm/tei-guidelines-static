@@ -10,7 +10,7 @@ docPath: p5.xml
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
         {% favicons 'src/resources/images/icon.png' %}
         <title>{{metadata.title}}</title>
-        <link rel="manifest" href="{{context}}/manifest.json">
+        <link rel="manifest" href="{{context}}/manifest.webmanifest">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@ docPath: p5.xml
         {% if components == 'dev' %}
         <script type="module" src="{{metadata.cdn}}/src/pb-components-bundle.js"></script>
         {% else %}
-        <script type="module" src="{{metadata.cdn}}@{{metadata.components}}/dist/pb-components-bundle.js"></script>
+        <script type="module" src="{{context}}/resources/scripts/pb-components-bundle.js"></script>
         {% endif %}
         <script src="{{context}}/resources/scripts/app.js"></script>
         {% block scripts %}{% endblock scripts %}
