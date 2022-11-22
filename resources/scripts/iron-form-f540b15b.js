@@ -1,4 +1,4 @@
-import{P as e,h as t,d as i}from"./paper-checkbox-ea000977.js";
+import{P as e,h as t,d as i}from"./paper-checkbox-f6a70487.js";
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
