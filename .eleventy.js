@@ -10,16 +10,20 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('src/resources/scripts/*.js');
     eleventyConfig.addPassthroughCopy('src/resources/css/*.css');
     eleventyConfig.addPassthroughCopy('src/offline.json');
+    // copy scripts and styles
     eleventyConfig.addPassthroughCopy({
         'node_modules/workbox-sw/build/workbox-sw.js': 'resources/scripts/workbox-sw.js',
         'node_modules/@teipublisher/pb-components/dist/*.js': 'resources/scripts',
         'node_modules/@teipublisher/pb-components/i18n/common/*': 'resources/i18n/common',
-        'node_modules/prismjs/themes/prism-solarizedlight.min.css': 'resources/css/prism-solarizedlight.min.css'
+        'node_modules/prismjs/themes/*.css': 'resources/css/prismjs/'
     });
 
+    // configure the TEI Publisher plugin
     eleventyConfig.addPlugin(tpPlugin, {
         remote: 'http://localhost:8080/exist/apps/guidelines/',
         data: {
+            // retrieve idents for all TEI elements and classes.
+            // a reference page will be generated for each
             "idents": "api/idents"
         },
         index: {
@@ -47,13 +51,17 @@ module.exports = (eleventyConfig) => {
         }
     });
 
+    // generate favicons
     eleventyConfig.addPlugin(faviconsPlugin, {
         manifestData: {
             title: "TEI P5: Guidelines for Electronic Text Encoding and Interchange",
-            short_name: "TEI P5 Guidelines"
+            short_name: "TEI P5 Guidelines",
+            start_url: "index.html",
+            display: "standalone"
         }
     });
     
+    // Install a service worker with offline caching
     eleventyConfig.on('eleventy.after', async () => {
         const result = await injectManifest({
             swSrc: '_site/sw.js',
