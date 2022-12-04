@@ -36,7 +36,7 @@ function search(index, fields, query) {
     results.innerHTML = '';
     
     if (fields === 'all') {
-        fields = ["content","title"];
+        fields = "content";
     }
     const queryOptions = {
         index: fields,
@@ -67,10 +67,7 @@ function search(index, fields, query) {
             div.appendChild(header);
             const head = document.createElement('h3');
             head.className = 'mb-0';
-            const link = document.createElement('a');
-            link.href = data.link;
-            link.innerHTML = data.title;
-            head.appendChild(link);
+            head.innerHTML = data.title;
             header.appendChild(head);
 
             if (data.tag) {
@@ -114,7 +111,7 @@ window.addEventListener('WebComponentsReady', () => {
         context: true,
         document: {
             id: "id",
-            index: ["content","title"],
+            index: "content",
             store: ["content", "title", "link", "tag"]
         }
     });
@@ -140,6 +137,7 @@ window.addEventListener('WebComponentsReady', () => {
     })
     .then((text) => {
         const chunks = text.split('\n');
+        console.log('Found %s chunks', chunks.length);
         chunks.forEach((chunk, idx) => {
             if (chunk.length === 0) {
                 return;
