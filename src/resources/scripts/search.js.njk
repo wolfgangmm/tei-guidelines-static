@@ -1,9 +1,7 @@
 ---js
 {
     permalink: "resources/scripts/search.js",
-    eleventyComputed: {
-        fields: data => Object.keys(data.tpConfig.index)
-    }
+    fields: "content"
 }
 ---
 
@@ -75,10 +73,7 @@ function search(index, fields, query) {
             div.appendChild(header);
             const head = document.createElement('h3');
             head.className = 'mb-0';
-            const link = document.createElement('a');
-            link.href = data.link;
-            link.innerHTML = data.title;
-            head.appendChild(link);
+            head.innerHTML = data.title;
             header.appendChild(head);
 
             if (data.tag) {
@@ -148,6 +143,7 @@ window.addEventListener('WebComponentsReady', () => {
     })
     .then((text) => {
         const chunks = text.split('\n');
+        console.log('Found %s chunks', chunks.length);
         chunks.forEach((chunk, idx) => {
             if (chunk.length === 0) {
                 return;
